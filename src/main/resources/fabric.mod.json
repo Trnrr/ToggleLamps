@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "toggleablelamps",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Toggleable Lamps",
+  "description": "Adds lamps that can be toggeled on/off",
   "authors": [
-    "Turnip Labs"
+    "Turner"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://www.youtube.com/watch?v=xat1GVnl8-k",
+    "sources": "https://github.com/Trnrr/ToggleLamps",
+		"issues": "https://github.com/Trnrr/ToggleLamps"
   },
 
 	"icon": "icon.png",
@@ -19,20 +20,19 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"trnrr.toggleablelamps.ToggleableLamps"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"trnrr.toggleablelamps.ToggleableLamps"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"trnrr.toggleablelamps.ToggleableLamps"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"trnrr.toggleablelamps.ToggleableLamps"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
   ],
 
   "depends": {

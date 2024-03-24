@@ -1,8 +1,7 @@
-package turniplabs.examplemod;
+package trnrr.toggleablelamps;
 
 import net.minecraft.core.Global;
 import net.minecraft.core.block.Block;
-import net.minecraft.core.block.BlockLamp;
 import net.minecraft.core.block.entity.TileEntity;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.entity.player.EntityPlayer;
@@ -12,15 +11,13 @@ import net.minecraft.core.util.helper.Side;
 import net.minecraft.core.world.World;
 import net.minecraft.core.world.WorldSource;
 
-import java.util.Random;
-
-public class LampBlock extends Block {
+public class ToggleLampBlock extends Block {
 
 	private static final int[] texCoordsInactive = new int[16];
 	private static final int[] texCoordsActive = new int[16];
 	boolean isActive;
 
-	public LampBlock(String key, int id, boolean isActivated) {
+	public ToggleLampBlock(String key, int id, boolean isActivated) {
 		super(key, id, Material.stone);
 		this.isActive = isActivated; //NEED
 	}
@@ -76,7 +73,7 @@ public class LampBlock extends Block {
 	}
 
 	public ItemStack[] getBreakResult(World world, EnumDropCause dropCause, int x, int y, int z, int meta, TileEntity tileEntity) {
-		return new ItemStack[]{new ItemStack(Block.lampIdle, 1, meta)};
+		return new ItemStack[]{new ItemStack(ToggleableLamps.toggledLampIdle, 1, meta)};
 	}
 
 	static {
