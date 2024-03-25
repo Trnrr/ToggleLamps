@@ -12,7 +12,9 @@ tile.toggleablelamps.toggledLampIdle.lime.name=Toggleable Lime Lamp
 tile.toggleablelamps.toggledLampIdle.gray.name=Toggleable Gray Lamp
 tile.toggleablelamps.toggledLampIdle.pink.name=Toggleable Pink Lamp
 tile.toggleablelamps.toggledLampIdle.silver.name=Toggleable Light Gray Lamp
-tile.toggleablelamps.toggledLampIdle.white.name=Toggleable Lamp
+tile.toggleablelamps.toggledLampIdle.blue.name=Toggleable Blue Lamp
+tile.toggleablelamps.toggledLampIdle.white.name=Toggleable White Lamp
+
 
 tile.toggleablelamps.toggledLampActive.red.name=Active Red Lamp
 tile.toggleablelamps.toggledLampActive.cyan.name=Active Cyan Lamp
@@ -28,7 +30,8 @@ tile.toggleablelamps.toggledLampActive.lime.name=Active Lime Lamp
 tile.toggleablelamps.toggledLampActive.gray.name=Active Gray Lamp
 tile.toggleablelamps.toggledLampActive.pink.name=Active Pink Lamp
 tile.toggleablelamps.toggledLampActive.silver.name=Active Light Gray Lamp
-tile.toggleablelamps.toggledLampActive.white.name=Active Lamp
+tile.toggleablelamps.toggledLampActive.blue.name=Active Blue Lamp
+tile.toggleablelamps.toggledLampActive.white.name=Active White Lamp
 
 tile.toggleablelamps.toggledLampIdle.red.desc=Right click to toggle the lamp on and off.
 tile.toggleablelamps.toggledLampIdle.cyan.desc=Right click to toggle the lamp on and off.
@@ -44,6 +47,7 @@ tile.toggleablelamps.toggledLampIdle.lime.desc=Right click to toggle the lamp on
 tile.toggleablelamps.toggledLampIdle.gray.desc=Right click to toggle the lamp on and off.
 tile.toggleablelamps.toggledLampIdle.pink.desc=Right click to toggle the lamp on and off.
 tile.toggleablelamps.toggledLampIdle.silver.desc=Right click to toggle the lamp on and off.
+tile.toggleablelamps.toggledLampIdle.blue.desc=Right click to toggle the lamp on and off.
 tile.toggleablelamps.toggledLampIdle.white.desc=Right click to toggle the lamp on and off.
 
 
